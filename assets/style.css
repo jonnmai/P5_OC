@@ -2,9 +2,12 @@
 
 @font-face {
 	font-family: 'Spectral'; /* Remplacez par le nom que vous souhaitez utiliser */
-	src: url('../assets/fonts/Spectral-Regular.ttf') format('ttf');
-	font-weight: normal; /* Poids de la police */
-	font-style: normal; /* Style de la police (normal, italic, etc.) */
+	src: url('../assets/fonts/Spectral-Regular.ttf'), format('ttf');
+  }
+
+  @font-face {
+	font-family: 'Inter'; /* Remplacez par le nom que vous souhaitez utiliser */
+	src: url('../assets/fonts/Inter-Regular.ttf'), format('ttf');
   }
 
 body {
